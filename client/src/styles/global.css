@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fc;
+  color: #111827;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+.navbar {
+  width: 100%;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.logo-icon {
+  font-size: 22px;
+}
+
+
+.nav-links {
+  display: none;
+}
+
+
+.join-btn {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  background: #111827;
+  color: white;
+  font-weight: 600;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+  .nav-links {
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+  }
+
+}
+
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+.badge {
+  display: inline-block;
+  background: #eef2ff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+
+.hero h1 {
+  margin-top: 20px;
+  font-size: 38px;
+  line-height: 1.1;
+}
+
+
+.hero-text {
+  margin-top: 20px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+
+.primary-btn {
+  margin-top: 25px;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 30px;
+  background: #111827;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+
+.features {
+  padding: 30px 20px;
+}
+
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.feature-card {
+  background: white;
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+.feature-icon {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+
+.feature-card p {
+  color: #6b7280;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+
+@media(min-width:768px){
+
+  .feature-container{
+    flex-direction:row;
+  }
+
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0;
+  border-top: 1px solid #e5e7eb;
+  z-index: 20;
+}
+
+.bottom-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: #374151;
+}
+
+.bottom-nav svg {
+  font-size: 20px;
+}
+
+
+@media (min-width: 768px) {
+  .bottom-nav {
+    display: none;
+  }
+}
