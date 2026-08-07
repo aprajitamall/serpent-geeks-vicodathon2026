@@ -6,13 +6,9 @@ function FeatureCard({ icon, title, description }) {
         {icon}
       </div>
 
-      <h3>
-        {title}
-      </h3>
+      <h3>{title}</h3>
 
-      <p>
-        {description}
-      </p>
+      <p>{description}</p>
 
     </div>
   );
