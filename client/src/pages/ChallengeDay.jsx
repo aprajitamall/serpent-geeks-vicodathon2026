@@ -7,37 +7,99 @@ function ChallengeDay() {
       <Navbar />
 
       <main>
-        <h1>Day 12 Challenge</h1>
 
-        <h2>Build a Responsive Dashboard</h2>
+        <section className="challenge-header">
 
-        <p>
-          Create a mobile-first dashboard using React. Focus on reusable
-          components and clean UI.
-        </p>
+          <h1>Day 12 Challenge 🚀</h1>
 
-        <h3>Requirements</h3>
+          <p>
+            Responsive Landing Page
+          </p>
 
-        <ul>
-          <li>Create reusable React components</li>
-          <li>Push your code to GitHub</li>
-          <li>Share your progress on LinkedIn</li>
-        </ul>
+        </section>
 
-        <h3>Submit Proof of Work</h3>
+        <section className="challenge-card">
 
-        <input type="text" placeholder="GitHub Repository Link" />
+          <h2>📚 Challenge Description</h2>
 
-        <br />
+          <p>
+            Build a modern responsive landing page using React.
+            Use reusable components and ensure the UI works
+            perfectly on desktop, tablet and mobile.
+          </p>
 
-        <input type="text" placeholder="LinkedIn Post Link" />
+        </section>
 
-        <br />
+        <section className="challenge-card">
 
-        <button>Submit</button>
+          <h2>🎯 Learning Objectives</h2>
+
+          <ul className="requirement-list">
+
+            <li>Responsive Design</li>
+
+            <li>React Components</li>
+
+            <li>Flexbox & Grid</li>
+
+            <li>Clean UI Design</li>
+
+            <li>Reusable Code</li>
+
+          </ul>
+
+        </section>
+
+        <section className="challenge-card">
+
+          <h2>📋 Submission Checklist</h2>
+
+          <ul className="requirement-list">
+
+            <li>✅ GitHub Repository</li>
+
+            <li>✅ Live Website</li>
+
+            <li>✅ LinkedIn Post</li>
+
+            <li>✅ Responsive UI</li>
+
+          </ul>
+
+        </section>
+
+        <section className="challenge-card">
+
+          <h2>🔗 Submit Your Work</h2>
+
+          <input
+            className="submit-input"
+            type="text"
+            placeholder="GitHub Repository Link"
+          />
+
+          <input
+            className="submit-input"
+            type="text"
+            placeholder="Live Website Link"
+          />
+
+          <input
+            className="submit-input"
+            type="text"
+            placeholder="LinkedIn Post Link"
+          />
+
+          <button className="primary-btn">
+            Submit Challenge
+          </button>
+
+        </section>
+
       </main>
 
       <BottomNav />
+
     </>
   );
 }

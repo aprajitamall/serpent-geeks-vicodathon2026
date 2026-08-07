@@ -19,11 +19,12 @@ a {
   color: inherit;
 }
 
-main {
-  max-width: 390px;
-  margin: auto;
-  background: white;
-  min-height: 100vh;
+main{
+    max-width:1200px;
+    width:100%;
+    margin:auto;
+    background:white;
+    min-height:100vh;
 }
 
 section {
@@ -182,14 +183,19 @@ h2 {
   color: #6b7280;
   line-height: 1.6;
 }
-/* 
-@media(min-width:768px){
+@media (min-width: 768px) {
 
   .feature-container{
-    flex-direction:row;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
   }
 
-} */
+  .feature-card{
+      width: 260px;
+  }
+
+}
 .bottom-nav {
   position: fixed;
   bottom: 0;
@@ -430,4 +436,110 @@ h2 {
 
 .stats-row strong{
     color:#111827;
+}
+/* 
+   CHALLENGE PAGE
+ */
+
+.challenge-header{
+    padding:35px 20px 15px;
+}
+
+.challenge-header h1{
+    font-size:30px;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+.challenge-header p{
+    color:#6b7280;
+}
+
+.challenge-card{
+    max-width:700px;
+    margin:20px auto;
+    background:#fff;
+    padding:20px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.challenge-card:hover{
+    transform:translateY(-5px);
+}
+
+.challenge-card h2{
+    color:#111827;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:18px;
+    text-align:left;
+}
+
+.challenge-card p,
+.challenge-card li{
+    color:#374151;
+    font-size:16px;
+}
+.requirement-list{
+    list-style:none;
+    padding:0;
+    margin-top:15px;
+}
+
+.requirement-list li{
+    padding:10px 0;
+    border-bottom:1px solid #e5e7eb;
+}
+
+.requirement-list li:last-child{
+    border-bottom:none;
+}
+
+.submit-input{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    outline:none;
+    font-size:15px;
+}
+
+.submit-input:focus{
+    border-color:#4f46e5;
+}
+@media (min-width:768px){
+
+.timeline-card{
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.step{
+    flex:1;
+}
+
+}
+@media (min-width:768px){
+
+.journey-card{
+    flex-direction:row;
+}
+
+.journey-item{
+    flex:1;
+}
+
+}
+@media (min-width:768px){
+
+.testimonials{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
 }
