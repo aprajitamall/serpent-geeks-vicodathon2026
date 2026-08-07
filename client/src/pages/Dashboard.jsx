@@ -1,4 +1,10 @@
 import Navbar from "../components/Navbar";
+import StreakCard from "../components/StreakCard";
+import Stats from "../components/Stats";
+import ProgressCard from "../components/ProgressCard";
+import TaskCard from "../components/TaskCard";
+import AchievementCard from "../components/AchievementCard";
+import AIStudyCoach from "../components/AIStudyCoach";
 import BottomNav from "../components/BottomNav";
 
 function Dashboard() {
@@ -7,30 +13,37 @@ function Dashboard() {
       <Navbar />
 
       <main>
-        <h1>Student Dashboard</h1>
 
-        <p>
-          Welcome to your ABTalks 60-Day Coding Challenge dashboard.
-        </p>
+        <section className="dashboard-header">
+          <h1>Welcome Back 👋</h1>
+          <p>Keep your streak alive today.</p>
+        </section>
 
-        <div>
-          <h2>🔥 Current Streak</h2>
-          <p>12 Days</p>
-        </div>
+        <section className="dashboard-section">
+          <StreakCard />
+        </section>
 
-        <div>
-          <h2>Today's Task</h2>
-          <p>
-            Build a responsive React component.
-          </p>
-        </div>
+        <section className="dashboard-section">
+          <ProgressCard />
+        </section>
+        
 
-        <div>
-          <h2>Progress</h2>
-          <p>
-            18 / 60 Days Completed
-          </p>
-        </div>
+<section className="dashboard-section">
+    <Stats />
+</section>
+
+<section className="dashboard-section">
+    <TaskCard />
+</section>
+
+
+        <section className="dashboard-section">
+          <AchievementCard />
+        </section>
+
+        <section className="dashboard-section">
+          <AIStudyCoach />
+        </section>
 
       </main>
 
