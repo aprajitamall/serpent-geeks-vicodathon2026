@@ -1,9 +1,12 @@
 import ChallengeGrid from "../components/ChallengeGrid";
 import BottomNav from "../components/BottomNav";
+import Navbar from "../components/Navbar";
 
 function Challenge() {
   return (
     <>
+      <Navbar />
+
       <main>
 
         <div className="challenge-header">
@@ -26,10 +29,12 @@ function Challenge() {
           <h2>📊 Your Progress</h2>
 
           <div className="progress-bar">
+
             <div
               className="progress-fill"
               style={{ width: "30%" }}
             ></div>
+
           </div>
 
           <div className="progress-footer">

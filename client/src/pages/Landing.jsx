@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import FeatureCard from "../components/FeatureCard";
+import { Link } from "react-router-dom";
 import {
   FaCode,
   FaGithub,
@@ -196,10 +197,9 @@ function Landing() {
             Join India's fastest-growing coding consistency community today.
           </p>
 
-          <button>
-            Start Your 60-Day Challenge
-          </button>
-
+          <Link to="/dashboard" className="cta-button">
+           Start Your 60-Day Challenge
+          </Link>
         </section>
 
       </main>

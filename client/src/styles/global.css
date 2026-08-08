@@ -815,3 +815,101 @@ h2 {
     align-items:center;
     justify-content:center;
 }
+
+
+.hero h1 {
+    color: #111827;
+}
+
+.features h2,
+.timeline h2,
+.journey h2,
+.testimonials h2 {
+    color: #111827;
+}
+
+.features,
+.timeline,
+.journey,
+.testimonials {
+    color: #111827;
+}
+
+.step p,
+.journey-item p {
+    color: #374151;
+    font-weight: 600;
+}
+
+.step {
+    color: #111827;
+}
+
+.timeline-card {
+    color: #111827;
+}
+.hero h1 {
+    color: #111827;
+    font-weight: 800;
+}
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: #4f46e5;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.coach-response {
+    margin-top: 20px;
+    padding: 18px;
+    background: #f8f9ff;
+    border: 1px solid #e0e7ff;
+    border-radius: 16px;
+}
+
+.coach-response h3 {
+    margin-bottom: 16px;
+    color: #111827;
+}
+
+.coach-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.coach-step span {
+    min-width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4f46e5;
+    color: white;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.coach-step p {
+    margin: 3px 0 0;
+    color: #374151;
+    line-height: 1.5;
+}
+
+.coach-tip {
+    margin-top: 15px;
+    padding: 14px;
+    background: white;
+    border-radius: 12px;
+    color: #374151;
+    line-height: 1.6;
+    border-left: 4px solid #4f46e5;
+}

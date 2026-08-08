@@ -8,9 +8,9 @@ function ChallengeGrid() {
 
       {days.map((day) => {
 
-        const completed = day < 12;
-        const current = day === 12;
-        const locked = day > 12;
+        const completed = day < 18;
+        const current = day === 18;
+        const locked = day > 18;
 
         const content = (
           <>

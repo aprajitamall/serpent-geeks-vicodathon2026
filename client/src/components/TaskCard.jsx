@@ -20,7 +20,7 @@ function TaskCard() {
         <span>⭐ Intermediate</span>
       </div>
 
-      <Link to="/day/12" className="primary-btn">
+      <Link to="/day/18" className="primary-btn">
       Start Task →
       </Link>
 
