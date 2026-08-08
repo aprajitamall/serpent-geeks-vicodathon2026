@@ -2,14 +2,22 @@ function StreakCard() {
   return (
     <div className="dashboard-card streak-card">
 
-      <h3>🔥 Current Streak</h3>
+      <div className="card-top">
+        <span className="card-icon">🔥</span>
+        <span className="card-label">Current Streak</span>
+      </div>
 
       <h1>12 Days</h1>
 
       <p>
-        You're doing great! Keep your streak alive by
-        submitting today's challenge.
+        Keep going! You're building a strong coding habit.
       </p>
+
+      <div className="streak-progress">
+        <div className="streak-fill"></div>
+      </div>
+
+      <small>12 / 60 days completed</small>
 
     </div>
   );

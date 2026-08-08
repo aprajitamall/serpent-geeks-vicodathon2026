@@ -1,18 +1,26 @@
 function TaskCard() {
   return (
-    <div className="dashboard-card">
+    <div className="dashboard-card task-card">
 
-      <h3>📅 Today's Task</h3>
+      <div className="card-top">
+        <span className="card-icon">📅</span>
+        <span className="card-label">Today's Task</span>
+      </div>
 
-      <h4>Responsive Landing Page</h4>
+      <h2>Build a Responsive React Component</h2>
 
       <p>
-        Build a responsive landing page using React
-        and upload your GitHub commit and LinkedIn post.
+        Create a reusable React component and make sure it
+        works properly on mobile and desktop screens.
       </p>
 
+      <div className="task-info">
+        <span>⏱️ 45 min</span>
+        <span>⭐ Intermediate</span>
+      </div>
+
       <button className="primary-btn">
-        Start Task
+        Start Task →
       </button>
 
     </div>

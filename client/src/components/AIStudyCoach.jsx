@@ -2,17 +2,27 @@ function AIStudyCoach() {
   return (
     <div className="dashboard-card coach-card">
 
-      <h3>🤖 AI Study Coach</h3>
+      <div className="card-top">
+        <span className="card-icon">🤖</span>
+        <span className="card-label">AI Study Coach</span>
+      </div>
+
+      <h2>Need help with today's challenge?</h2>
 
       <p>
-        Based on your recent progress,
-        spend 30 minutes practicing
-        responsive design before starting
-        today's challenge.
+        Get personalized guidance, coding tips, and suggestions
+        to improve your learning journey.
       </p>
 
+      <div className="coach-suggestion">
+        💡 <span>
+          Try breaking today's task into smaller components
+          before you start coding.
+        </span>
+      </div>
+
       <button className="primary-btn">
-        View Suggestion
+        Ask AI Coach →
       </button>
 
     </div>
