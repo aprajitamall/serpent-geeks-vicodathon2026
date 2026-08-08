@@ -376,7 +376,48 @@ h2 {
 .dashboard-card h3 {
   margin-bottom: 12px;
 }
+@media (min-width: 768px) {
 
+  .dashboard-section {
+    max-width: 1100px;
+    margin: auto;
+  }
+
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.card-icon {
+  font-size: 26px;
+}
+
+.card-label {
+  color: #4f46e5;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.dashboard-card h2 {
+  color: #111827;
+}
+
+.dashboard-card p {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.dashboard-card .primary-btn {
+  margin-top: 18px;
+}
+
+.coach-card {
+  background: #eef2ff;
+}
 .streak-card h1 {
   color: #4f46e5;
   font-size: 40px;
@@ -806,6 +847,18 @@ h2 {
         gap:15px;
     }
 
+}
+.day-card.current {
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.18);
+  transform: scale(1.02);
+}
+
+.day-card.locked {
+  cursor: not-allowed;
+}
+
+.day-card.completed {
+  cursor: pointer;
 }
 .task-card .primary-btn{
     width:160px;

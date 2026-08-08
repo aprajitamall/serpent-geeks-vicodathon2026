@@ -24,33 +24,23 @@ function Dashboard() {
         </div>
 
         <section className="dashboard-section">
-
           <StreakCard />
-
         </section>
 
         <section className="dashboard-section">
-
           <ProgressCard />
-
         </section>
 
         <section className="dashboard-section">
-
           <TaskCard />
-
         </section>
 
         <section className="dashboard-section">
-
           <AchievementCard />
-
         </section>
 
         <section className="dashboard-section">
-
           <AIStudyCoach />
-
         </section>
 
       </main>
