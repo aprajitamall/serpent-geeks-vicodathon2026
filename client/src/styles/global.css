@@ -807,3 +807,11 @@ h2 {
     }
 
 }
+.task-card .primary-btn{
+    width:160px;
+    height:45px;
+    margin-top:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}

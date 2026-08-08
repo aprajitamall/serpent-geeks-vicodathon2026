@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function TaskCard() {
   return (
     <div className="dashboard-card task-card">
@@ -19,9 +20,9 @@ function TaskCard() {
         <span>⭐ Intermediate</span>
       </div>
 
-      <button className="primary-btn">
-        Start Task →
-      </button>
+      <Link to="/day/12" className="primary-btn">
+      Start Task →
+      </Link>
 
     </div>
   );

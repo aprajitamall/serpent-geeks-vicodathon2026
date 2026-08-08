@@ -10,20 +10,10 @@ function ChallengeGrid() {
 
         const completed = day < 12;
         const current = day === 12;
+        const locked = day > 12;
 
-        return (
-          <Link
-            to={`/day/${day}`}
-            className={`day-card ${
-              completed
-                ? "completed"
-                : current
-                ? "current"
-                : "locked"
-            }`}
-            key={day}
-          >
-
+        const content = (
+          <>
             <span className="day-number">
               {day}
             </span>
@@ -36,8 +26,34 @@ function ChallengeGrid() {
                 : "🔒"}
             </span>
 
-            <small>Day {day}</small>
+            <small>
+              Day {day}
+            </small>
+          </>
+        );
 
+        if (locked) {
+          return (
+            <div
+              className="day-card locked"
+              key={day}
+            >
+              {content}
+            </div>
+          );
+        }
+
+        return (
+          <Link
+            to={`/day/${day}`}
+            className={`day-card ${
+              completed
+                ? "completed"
+                : "current"
+            }`}
+            key={day}
+          >
+            {content}
           </Link>
         );
       })}
