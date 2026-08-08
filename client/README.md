@@ -1,16 +1,134 @@
-# React + Vite
+# 🚀 ABTalks – India's 60-Day Coding Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ABTalks is a student-focused coding consistency platform designed to help developers build projects, maintain coding streaks, improve their GitHub presence, and showcase their learning journey.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🚀 60-Day Coding Challenge
+- 🔥 Daily coding streak tracking
+- 📊 Progress tracking
+- 💻 Real-world project building
+- 🐙 GitHub consistency tracking
+- 💼 LinkedIn presence building
+- 🏆 Achievement system
+- 🤖 AI Study Coach
+- 📱 Responsive mobile and desktop design
+- 🔒 Locked future challenges
+- ✅ Completed challenge tracking
 
-## React Compiler
+## 🖥️ Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Landing Page
 
-## Expanding the ESLint configuration
+Introduces the ABTalks platform and includes:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Hero section
+- Platform statistics
+- Why Join ABTalks
+- How It Works
+- 60-Day Journey
+- Student testimonials
+- Call-to-action
+
+### Student Dashboard
+
+Provides students with:
+
+- Current coding streak
+- Challenge progress
+- Today's task
+- Achievements
+- AI Study Coach
+
+### Challenge Page
+
+Students can view all 60 challenge days.
+
+- Completed days
+- Current challenge
+- Locked future challenges
+- Progress percentage
+
+### Daily Challenge
+
+Each challenge contains:
+
+- Challenge description
+- Learning objectives
+- Submission checklist
+- GitHub repository submission
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- Vite
+- React Router
+- React Icons
+- CSS
+- Git & GitHub
+
+## 🎯 Project Goal
+
+The goal of ABTalks is to make coding consistency easier for students by turning daily development into a structured 60-day journey.
+
+**Learn → Build → Commit → Share → Grow**
+
+## 🤖 AI-Assisted Development
+
+ABTalks was developed using AI-assisted vibe coding.
+Development prompts are documented in `PROMPTS.md`.
+
+## 🚀 Future Improvements
+
+- Real user authentication
+- Backend database
+- Real GitHub API integration
+- Real LinkedIn sharing
+- AI-powered coding assistance
+- Leaderboards
+- User profiles
+- Real-time challenge analytics
+
+## 👥 Team
+
+**Team: Serpent Geeks**
+
+Built for **ViCodathon 2026**.
+
+## 📄 License
+
+This project was created for educational and hackathon purposes.
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── FeatureCard.jsx
+│   ├── StreakCard.jsx
+│   ├── ProgressCard.jsx
+│   ├── TaskCard.jsx
+│   ├── AchievementCard.jsx
+│   ├── AIStudyCoach.jsx
+│   ├── ChallengeGrid.jsx
+│   └── BottomNav.jsx
+│
+├── pages/
+│   ├── Landing.jsx
+│   ├── Dashboard.jsx
+│   ├── Challenge.jsx
+│   └── ChallengeDay.jsx
+│
+├── data/
+│   └── mockData.js
+│
+├── App.jsx
+└── main.jsx
+
+PROMPTS.md
+README.md
+package.json
+```
